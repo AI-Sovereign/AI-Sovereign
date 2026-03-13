@@ -1,16 +1,38 @@
-## Hi there 👋
+# Hi there 👋 I'm Ananya Soni
 
-<!--
-**AI-Sovereign/AI-Sovereign** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> "Building AI systems that actually work in the real world, rather than just existing in a research paper."
 
-Here are some ideas to get you started:
+I am a full-stack AI developer, a dedicated problem solver, and an excellent communicator. I handle the entire AI project cycle—from the initial problem scoping phase all the way to deployment and beyond. I strongly believe that building complex systems requires being someone people genuinely want to talk to and collaborate with.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+> ### ⚡ Fun Fact 
+> I spend a highly questionable amount of time tweaking multimodal AI architectures, but I am also the exact person who will happily spend an hour discussing the superiority of text-based developer forums over corporate networking sites.
+
+---
+
+### My Domain Expertise 🛠️
+~ Artificial General Intelligence (AGI) ~ Cognitive Architectures ~ Neuro-symbolic AI ~ Generative AI ~ Computer Vision (CV) ~ Natural Language Processing (NLP) ~ Data Science ~ Deep Learning ~ Machine Learning ~
+
+---
+
+### 🌐 Connect with Me
+*Quick heads-up: I prioritize platforms that value a genuine culture of trust over bot-driven noise. My LinkedIn is currently a locked-out disaster area, so please completely ignore it if it shows up on my profile. Catch me on the platforms below instead.*
+
+[![X](https://img.shields.io/badge/X_Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AnanyaSoni48055)
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/user/AnanyaSoni-AISoverei/)
+[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=plastic&logo=dev.to&logoColor=white)](https://dev.to/aisovereign)
+[![Hacker News](https://img.shields.io/badge/Hacker_News-F0652F?style=social&logo=ycombinator)](https://news.ycombinator.com/user?id=AISovereignDev)
+[![Hashnode](https://img.shields.io/badge/Hashnode-2962FF?style=flat&logo=hashnode&logoColor=white)](https://hashnode.com/@AS-Sovereign)
+[![Crunchbase](https://img.shields.io/badge/Crunchbase-0A66C2?style=for-the-badge&logo=crunchbase&logoColor=white)](https://www.crunchbase.com/person/ananya-soni-db64)
+
+---
+
+### Technical Log
+If you want to see what I'm actually building, check out my live documentation site instead of digging through the main repo:
+**[Multimodal AGI Architecture Implementation v1 (Live Docs)](https://ai-sovereign.github.io/Multimodal-AGI-Architecture-Implementation-v1/)**
+
+---
+
+![Ananya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AI-Sovereign&show_icons=true&theme=radical) 🚀
+
