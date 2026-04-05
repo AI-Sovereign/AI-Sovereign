@@ -36,3 +36,14 @@ If you want to see what I'm actually building, check out my live documentation s
 **[Multimodal AGI Architecture Implementation v1 (Live Docs)](https://ai-sovereign.github.io/Multimodal-AGI-Architecture-Implementation-v1/)**
 ---
 ![Ananya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AI-Sovereign&show_icons=true&theme=radical)
+
+---
+### 🔍 Extended Proof of Work
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-2632-0929)  
+**Visit my ORCID profile**
+
+[![Zenodo](https://img.shields.io/badge/Zenodo-024DAD?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.19394823)  
+**If you want to see what I am working on or the theoretical paper or in the form of PDF you can visit here**
+
+[![GitBook](https://img.shields.io/badge/GitBook-3884FF?style=for-the-badge&logo=gitbook&logoColor=white)](https://global-agi-sovereignty-architect.gitbook.io/global-agi-sovereignty-architect-command-docs/)  
+**See my documentation here**
