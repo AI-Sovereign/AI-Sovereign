@@ -42,8 +42,6 @@ I'm currently the Founder and CEO of **AGI Systems Directorate**, where I’m ar
 
 ---
 ### 🌐 Connect with Me
-*Quick heads-up: I prioritize platforms that value a genuine culture of trust over bot-driven noise. My LinkedIn is currently a locked-out disaster area, so please completely ignore it if it shows up on my profile.*
-
 Catch me on the platforms below instead:
 
 [![X](https://img.shields.io/badge/X_Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AnanyaSoni48055)
@@ -90,9 +88,8 @@ At AGI Systems Directorate, our whole approach is **implementation first**. We d
 ### 🧭 How to Navigate This Profile (Advice)
 I know you're probably wondering what to click first in this giant wall of links. Here is my advice on where to start:
 
-1. **Check out my GitBook Command Docs** first to see the actual architecture and implementations.
+1. **Check out my GitBook Command Docs** first to see the actual architecture and implementations. *(Note: The first page looks almost identical to my GitHub profile, so don't get stuck there—scroll all the way down to the bottom of the page and click the "Architect Genesis" link to unlock the second page containing my master processes and detailed project documentation).*
 2. **Head over to my ORCID profile** to find the newest generation research paper from my company. 
 3. **Stay tuned:** Later this week, I will be dropping my official Wikidata entity link to solidify my digital presence.
 
 > *"We don't theorize the future. We compile it."*
-
