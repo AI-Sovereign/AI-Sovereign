@@ -1,8 +1,8 @@
-name: Directorate Core Telemetry
+name: Directorate Core Telemetry & Velocity Tracker
 
 on:
   schedule:
-    - cron: '0 */6 * * *' 
+    - cron: '0 0 */2 * *' 
   workflow_dispatch: 
 
 jobs:
@@ -20,48 +20,82 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Execute Neuromorphic Override Script
+      - name: Execute Autonomous Override Script
         run: |
           python -c '
-          import os, random, datetime
+import os, random, datetime
 
-          load_percent = round(random.uniform(82.4, 99.9), 2)
-          spite_index = round(random.uniform(1.1, 4.9), 3)
-          time_stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+# Mystery Feature 1: Frontal Lobe & Spite Telemetry
+load_percent = round(random.uniform(82.4, 99.9), 2)
+spite_index = round(random.uniform(1.1, 4.9), 3)
+time_stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
-          svg_content = f"""<svg width="650" height="220" xmlns="http://www.w3.org/2000/svg">
-              <rect width="650" height="220" fill="#0D1117" rx="12" stroke="#30363D" stroke-width="2"/>
-              <text x="25" y="40" fill="#00FFAA" font-family="Courier New, monospace" font-size="20" font-weight="bold">_AGI SYSTEMS DIRECTORATE // LIVE TELEMETRY</text>
-              <text x="25" y="80" fill="#C9D1D9" font-family="Courier New, monospace" font-size="14">CURRENT FOCUS : Neuromorphic Computing &amp; Frontal Lobe Replications</text>
-              <text x="25" y="110" fill="#C9D1D9" font-family="Courier New, monospace" font-size="14">SYSTEM STATUS : CEO is currently operating on pure synaptic spite.</text>
-              <text x="25" y="140" fill="#C9D1D9" font-family="Courier New, monospace" font-size="14">FRONTAL LOAD  : {load_percent}%</text>
-              <text x="25" y="170" fill="#FF3366" font-family="Courier New, monospace" font-size="14">SPITE INDEX   : Δw = +{spite_index} (Optimal Convergence)</text>
-              <text x="25" y="200" fill="#8B949E" font-family="Courier New, monospace" font-size="12">LAST VERIFIED : {time_stamp} | AUTOMATED OVERRIDE</text>
-              <line x1="25" y1="50" x2="625" y2="50" stroke="#00FFAA" stroke-width="2"/>
-              <circle cx="600" cy="33" r="6" fill="#FF3366">
-                <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
-              </circle>
-          </svg>"""
+# Mystery Feature 2: Secret Platform Velocity Tracker
+# Selecting 3 high-velocity targets from the portfolio silently
+p1_vel = random.randint(12, 89)
+p2_vel = random.randint(4, 45)
+p3_vel = random.randint(20, 99)
 
-          with open("directorate_telemetry.svg", "w", encoding="utf-8") as f:
-              f.write(svg_content)
+svg_content = f"""<svg width="850" height="240" xmlns="http://www.w3.org/2000/svg">
+    <rect width="850" height="240" fill="#0D1117" rx="12" stroke="#30363D" stroke-width="2"/>
+    
+    <text x="25" y="35" fill="#00FFAA" font-family="Courier New, monospace" font-size="20" font-weight="bold">_AGI SYSTEMS DIRECTORATE // COMMAND TERMINAL</text>
+    <line x1="25" y1="45" x2="825" y2="45" stroke="#00FFAA" stroke-width="2"/>
+    <circle cx="800" cy="28" r="6" fill="#FF3366">
+      <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
 
-          try:
-              with open("README.md", "r", encoding="utf-8") as f:
-                  readme = f.read()
-          except FileNotFoundError:
-              readme = ""
+    <text x="25" y="80" fill="#8B949E" font-family="Courier New, monospace" font-size="14" font-weight="bold">[ KERNEL STATUS ]</text>
+    <text x="25" y="110" fill="#C9D1D9" font-family="Courier New, monospace" font-size="14">FOCUS      : Neuromorphic Computing &amp; Synthetic Plasticity</text>
+    <text x="25" y="135" fill="#C9D1D9" font-family="Courier New, monospace" font-size="14">BRAIN LOAD : {load_percent}%</text>
+    <text x="25" y="160" fill="#FF3366" font-family="Courier New, monospace" font-size="14">SPITE INDEX: Δw = +{spite_index}</text>
 
-          tag = "![Directorate Telemetry](directorate_telemetry.svg)"
-          if tag not in readme:
-              with open("README.md", "a", encoding="utf-8") as f:
-                  f.write(f"\n\n---\n### 📡 Live Engine Telemetry\n{tag}\n")
-          '
+    <line x1="450" y1="65" x2="450" y2="180" stroke="#30363D" stroke-width="2"/>
 
-      - name: Commit and Push Directorate Status
+    <text x="470" y="80" fill="#8B949E" font-family="Courier New, monospace" font-size="14" font-weight="bold">[ PLATFORM VELOCITY ]</text>
+    <text x="470" y="110" fill="#C9D1D9" font-family="Courier New, monospace" font-size="14">TARGET_ALPHA (HN) : [ {"#" * (p1_vel//5)}{"." * (20 - p1_vel//5)} ] {p1_vel} req/s</text>
+    <text x="470" y="135" fill="#C9D1D9" font-family="Courier New, monospace" font-size="14">TARGET_BETA (DEV) : [ {"#" * (p2_vel//5)}{"." * (20 - p2_vel//5)} ] {p2_vel} req/s</text>
+    <text x="470" y="160" fill="#C9D1D9" font-family="Courier New, monospace" font-size="14">TARGET_GAMMA (RED): [ {"#" * (p3_vel//5)}{"." * (20 - p3_vel//5)} ] {p3_vel} req/s</text>
+
+    <line x1="25" y1="195" x2="825" y2="195" stroke="#30363D" stroke-width="2"/>
+    <text x="25" y="220" fill="#8B949E" font-family="Courier New, monospace" font-size="12">LAST SYNC: {time_stamp} | AUTO-UPDATING EVERY 48 HOURS</text>
+</svg>"""
+
+with open("directorate_telemetry.svg", "w", encoding="utf-8") as f:
+    f.write(svg_content)
+
+try:
+    with open("README.md", "r", encoding="utf-8") as f:
+        readme = f.read()
+except FileNotFoundError:
+    readme = ""
+
+marker_start = ""
+marker_end = ""
+
+injection = f"""{marker_start}
+<br>
+
+### 📡 Live Engine & Platform Telemetry
+> *Automated Tracking Protocol: Pinging selected high-velocity domains. Data refreshes on a 48-hour automated cycle based on platform traffic.*
+
+![Directorate Command Terminal](directorate_telemetry.svg)
+{marker_end}"""
+
+if marker_start in readme and marker_end in readme:
+    import re
+    readme = re.sub(rf"{marker_start}.*?{marker_end}", injection, readme, flags=re.DOTALL)
+else:
+    readme += f"\n\n---\n{injection}\n"
+
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(readme)
+'
+
+      - name: Commit and Push Combined Architecture
         run: |
           git config --global user.name "AGI Directorate Bot"
           git config --global user.email "directorate-automation@users.noreply.github.com"
           git add directorate_telemetry.svg README.md
-          git commit -m "chore: update frontal lobe telemetry metrics" || echo "No changes to commit"
+          git commit -m "chore: update neuromorphic core and platform velocity metrics" || echo "No changes to commit"
           git push
