@@ -9,16 +9,16 @@
 
     <text x="25" y="80" fill="#8B949E" font-family="Courier New, monospace" font-size="13" font-weight="bold">[ SUBSYSTEM METRICS ]</text>
     <text x="25" y="110" fill="#C9D1D9" font-family="Courier New, monospace" font-size="13">FRAMEWORK : Multimodal Architecture &amp; Neuro-Symbolic Logic</text>
-    <text x="25" y="135" fill="#C9D1D9" font-family="Courier New, monospace" font-size="13">CORE LOAD : 98.44%</text>
-    <text x="25" y="160" fill="#8B949E" font-family="Courier New, monospace" font-size="13">BIAS DELTA : Δw = +4.488</text>
+    <text x="25" y="135" fill="#C9D1D9" font-family="Courier New, monospace" font-size="13">CORE LOAD : 95.4%</text>
+    <text x="25" y="160" fill="#8B949E" font-family="Courier New, monospace" font-size="13">BIAS DELTA : Δw = +3.349</text>
 
     <line x1="450" y1="65" x2="450" y2="180" stroke="#30363D" stroke-width="1.5"/>
 
     <text x="470" y="80" fill="#8B949E" font-family="Courier New, monospace" font-size="13" font-weight="bold">[ PLATFORM TRAFFIC VELOCITY ]</text>
-    <text x="470" y="110" fill="#C9D1D9" font-family="Courier New, monospace" font-size="13">ENDPOINT_ALPHA (HN)   : [ ######.............. ] 32 req/s</text>
-    <text x="470" y="135" fill="#C9D1D9" font-family="Courier New, monospace" font-size="13">ENDPOINT_BETA (DEV)   : [ ######.............. ] 32 req/s</text>
-    <text x="470" y="160" fill="#C9D1D9" font-family="Courier New, monospace" font-size="13">ENDPOINT_GAMMA (DATA)  : [ ###############..... ] 75 req/s</text>
+    <text x="470" y="110" fill="#C9D1D9" font-family="Courier New, monospace" font-size="13">ENDPOINT_ALPHA (HN)   : [ #################... ] 85 req/s</text>
+    <text x="470" y="135" fill="#C9D1D9" font-family="Courier New, monospace" font-size="13">ENDPOINT_BETA (DEV)   : [ ####................ ] 23 req/s</text>
+    <text x="470" y="160" fill="#C9D1D9" font-family="Courier New, monospace" font-size="13">ENDPOINT_GAMMA (DATA)  : [ ####................ ] 21 req/s</text>
 
     <line x1="25" y1="195" x2="825" y2="195" stroke="#30363D" stroke-width="1.5"/>
-    <text x="25" y="218" fill="#8B949E" font-family="Courier New, monospace" font-size="11">AUTO-SYNC: 48HR CYCLE | DEPLOYMENT NODE: ACTIVE | REF_TIME: 2026-06-23 16:26:53 UTC</text>
+    <text x="25" y="218" fill="#8B949E" font-family="Courier New, monospace" font-size="11">AUTO-SYNC: 48HR CYCLE | DEPLOYMENT NODE: ACTIVE | REF_TIME: 2026-06-27 04:08:55 UTC</text>
 </svg>
